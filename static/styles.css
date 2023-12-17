@@ -1,0 +1,35 @@
+.jumbotron {
+    padding: 3rem 1rem;
+}
+
+.original_title{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.summary_title{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.srt{
+    display: flex;
+    flex-direction: row;
+}
+
+.originalTxt{
+    margin-right: 15px;
+}
+
+.summaryTxt{
+    margin-left: 15px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #ffff; 
+    opacity: 1;
+}
