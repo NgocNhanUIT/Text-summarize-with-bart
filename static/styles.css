@@ -1,5 +1,8 @@
+
+
 .jumbotron {
-    padding: 3rem 1rem;
+    background-color: #e8f2fc;
+    padding: 2rem 0rem 2rem 0rem;
 }
 
 .original_title{
@@ -32,4 +35,10 @@
 .form-control:disabled, .form-control[readonly] {
     background-color: #ffff; 
     opacity: 1;
+}
+
+textarea.form-control{
+    color: #202F66 !important;
+    box-shadow: 7px 5px 16px 0px #ccc;
+    border:none;
 }
